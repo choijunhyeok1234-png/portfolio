@@ -8,16 +8,18 @@
 
 ```
 .
-├── index.html        # 메인 — 히어로 + 두 축 소개 + 대표작
-├── branding.html     # Branding — 브랜드 정체성 / 패키지 / 인쇄물
-├── space.html        # Space — 쇼룸 / 매장 인테리어 / 도면 / 투시도
-├── about.html        # 소개 · 작업 연혁 · 스킬
-├── contact.html      # 연락처
+├── index.html            # 메인 — 히어로 + 두 축 소개 + 대표작
+├── branding/index.html   # /branding/ — 브랜드 정체성 / 패키지 / 인쇄물
+├── space/index.html      # /space/    — 쇼룸 / 매장 인테리어 / 도면 / 투시도
+├── about/index.html      # /about/    — 소개 · 작업 연혁 · 스킬
+├── contact/index.html    # /contact/  — 연락처
 └── assets/
-    ├── css/style.css # 디자인 시스템 (미니멀 · 에디토리얼)
-    ├── js/main.js    # 네비 · 스크롤 리빌 · 라이트박스
-    └── img/          # 프로젝트별 실제 작업물 이미지
+    ├── css/style.css     # 디자인 시스템 (미니멀 · 에디토리얼)
+    ├── js/main.js        # 네비 · 스크롤 리빌 · 라이트박스
+    └── img/              # 프로젝트별 실제 작업물 이미지
 ```
+
+각 메뉴는 개별 디렉토리의 `index.html`로 구성되어 `/branding/`, `/space/` 같은 깔끔한 URL로 접근됩니다.
 
 ## 메뉴 / 콘텐츠
 
